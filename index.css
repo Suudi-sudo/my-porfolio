@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+a {
+    color: var(link-color);
+    text-decoration: none;
+}
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+}
+nav .left{
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 600;
+    color:#000;
+    
+}
+nav .center{
+    color: black;
+    border: 0; 
+    
+}
+nav .right{
+    color: #000;
+}
+/* landing */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 100px;
+    margin: 50px 0;
+    
+}
+.landing #text h1 {
+    font-size: 45px;
+
+}
+.landing #text .link {
+margin-top: 25px;
+}
+.landing #text .link a {
+    display: inline-block;
+    padding: 5px 7px;
+    border: 2px solid var(link-color);
+    border-radius: 5px;
+    transition: 1s;
+}
+.landing #text .link a :hover {
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+}
+.landing #text {
+    flex: 5;
+}
+.landing .headshot img{
+    flex: 2;
+    border-radius: 30%;
+    width: 20vw;
+    display: flex;
+    justify-content: right;
+
+}
+/* footer */
+section .footer {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+.footer #text h2 {
+text-align: center;
+font-size: 35px;
+
+}
+.footer #text p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer .cells {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+}
+.footer .cells .cell img {
+    width: 30px;
+    height: 30px;
+}
+.footer .cells .cell span {
+    font-size: 18px;
+}
+
